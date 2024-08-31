@@ -1,0 +1,185 @@
+.main-content-container {
+    position: absolute;
+    top: 2%;
+    margin-left: 405px;
+    right: 1%;
+    margin-right: -20px;
+}
+.main-content {
+    overflow-y: auto;
+    width: 100%;
+    max-height: 585px;
+    margin-left: -12px;
+    background: linear-gradient(to bottom right, #1F1F1F 10%, #000000 100%);
+}
+.main-content::-webkit-scrollbar {
+    width: 10px;
+}
+.main-content::-webkit-scrollbar-track,
+.main-content::-webkit-scrollbar-thumb {
+    background: none;
+}
+.main-content::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.list-group-item a {
+    text-decoration: none;
+}
+.list-group-item {
+    border: none;
+}
+.instagram-app-container,
+.twitter-app-container,
+.facebook-app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(179, 179, 179);
+    margin: 2px;
+
+    margin-right: 14px;
+
+}
+.instagram-app-link i,
+.twitter-app-link i {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.facebook-app-link i {
+    font-size: 18px;
+    color: rgb( 255, 255, 255);
+}
+.media-app-container {
+    display: flex;
+
+}
+.song-title {
+    font-size: 15px;
+    margin-left: -15px;
+    font-weight: 700;
+}
+.song-text {
+    font-size: 14px;
+    margin-left: -15px;
+    font-weight: 500;
+
+}
+
+.link-heading {
+    font-size: 15px;
+    font-weight: 700;
+}
+.link-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+.sign-up-log-in-container {
+    width: 230px;
+}
+.header-container {
+    margin-left: -12px;
+}
+
+/*newwww*/
+
+
+
+
+.popular-artists-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-albums-tag,
+.popular-radio-tag,
+.featured-charts-tag,
+.spotify-playlists-tag,
+.trending-episodes-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-artists-tag h1,
+.popular-albums-tag h1,
+.popular-radio-tag h1,
+.featured-charts-tag h1,
+.spotify-playlists-tag h1,
+.trending-episodes-tag h1{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.popular-artists-tag h1:hover,
+.popular-albums-tag h1:hover,
+.popular-radio-tag h1:hover,
+.featured-charts-tag h1:hover,
+.spotify-playlists-tag h1:hover,
+.trending-episodes-tag h1:hover {
+    text-decoration: underline;
+}
+.popular-artists-tag h2,
+.popular-albums-tag h2,
+.popular-radio-tag h2,
+.featured-charts-tag h2,
+.spotify-playlists-tag h2,
+.trending-episodes-tag h2 {
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
+.popular-artists-tag h2:hover,
+.popular-albums-tag h2:hover,
+.popular-radio-tag h2:hover,
+.featured-charts-tag h2:hover,
+.spotify-playlists-tag h2:hover,
+.trending-episodes-tag h2:hover {
+    text-decoration: underline;
+}
+
+
+.profile-container:hover,
+.songs-container:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+}
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+ 
+}
+.songs-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+
+/*.card-container-11 {
+    width: 250px;
+}
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 992px) {
+    .image-11 {
+        
+    }
+    .card-container-11 {
+        max-width: ;
+    }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+
+}
